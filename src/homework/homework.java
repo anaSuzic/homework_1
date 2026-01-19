@@ -46,7 +46,7 @@ public class homework {
             IO.println("Great job, you remembered three words!");
         }
         else {
-            IO.println("You forgot three words!");
+            IO.println("Uh oh...You forgot three words!");
         }
 
         scanner.close();
