@@ -3,23 +3,23 @@ package homework;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
-public class test1 {
+public class homeworkTest {
 
     @Test
     void stringsNotEmpty() {
-        String[] words = homework.getStrings();
+        String[] words = Main.getStrings();
         assertTrue(words.length > 0);
     }
 
     @Test
     void getStringsFirstWord() {
-        String[] words = homework.getStrings();
+        String[] words = Main.getStrings();
         assertEquals("Two", words[0]);
     }
 
     @Test
     void getStringsLastWord() {
-        String[] words = homework.getStrings();
+        String[] words = Main.getStrings();
         assertEquals("mend.", words[words.length - 1]);
     }
 }

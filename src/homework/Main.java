@@ -3,7 +3,7 @@ package homework;
 import java.util.Random;
 import java.util.Scanner;
 
-public class homework {
+public class Main {
 
     static void main() {
 
