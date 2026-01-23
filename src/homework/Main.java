@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class Main {
 
-    static void main() {
+    static void main(String[] args) {
 
         String[] word = getStrings();
         Random randomNum = new Random();
